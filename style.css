@@ -11,6 +11,8 @@ body{
     background:#D1A27A ;
     min-height: 100%;
     display: flex;
+    overflow-x: hidden;
+    height: 100%;
 }
 footer{
    border-top: solid 1px #000;
@@ -34,14 +36,42 @@ footer p{
     float: right;
     margin: 50px
 }
+
 #imagem-sobre img{
-    width: 30rem;
-    height: 300px;    
+    width: 70%;
+    height: 400px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+#post-sobre1{
+    margin-left: -300px;
+    width: 300px;
+    float: left;
+    border-right: 1px solid #7E634B;
+    margin-right:5px ;
+    height: 500px;
 
 }
-.post-sobre{
-    
+h2 {
+    text-align: center;
 }
+#post-sobre{
+    width: 300px;
+    height: 500px;
+}
+#post-sobre1 h2{
+    margin-left: 10px;
+}
+#post-sobre2{
+    width: 300px;
+    float: right;
+    border-left:1px solid #7E634B;
+    height: 500px;
+}
+#post-sobre2 h2, p{
+    margin-left: 15px;
+}
+
 .menu{
     height: 80px;
     width: 100%;
@@ -80,4 +110,21 @@ footer p{
 .menu ul li a:hover{
 	border-bottom: 1px solid #4d9e50;
     color: #4d9e50;
+}
+/*Index*/
+#titulo-conteudo, #aux{
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+#titulo-conteudo img{
+    width: 500px;
+    height: 200px;
+    border: red solid 2px;
+    background-image:url(/img/fundo.jpg);
+
 }
