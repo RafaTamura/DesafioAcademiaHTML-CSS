@@ -176,11 +176,10 @@ footer p{
     width: 300px;
     height: 30px;
 }
-#tamanho-botao{
+.tamanho-botao{
     background-color:#4d9e50;
     width: 100px;
     height: 25px;
-    margin-left: 100px;    
 }
 /* Estilização do Produto*/
 #produto {
@@ -256,6 +255,7 @@ h3{
     text-align: center;
     color: #111;
     text-transform: uppercase;
+    font-size: 30px;
 }
 #caixa3{
     background-image: url(img/fundo2.jpg)
@@ -263,4 +263,64 @@ h3{
 p{
     text-align: center;
 }
+.titulo {
+    font-size:50px;
+}
 /* Trama */
+#trama-principal {
+    background: rgb(2,0,36);
+    background: linear-gradient(23deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 64%, rgba(98,7,7,0.7932422969187676) 97%);
+    width: 40%;
+    float: left;
+    border-radius: 5%;
+    color: #fff;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 70px;
+    opacity: 0.8;
+    
+}
+#trama-principal h1 {
+    margin: 20px;
+    text-align:center;
+    font-size: 30px;
+}
+#trama-principal p {
+    margin: 20px;
+}
+#trama-secundaria {
+    margin-top: 70px;
+    margin-right: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(23deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 64%, rgba(98,7,7,0.7932422969187676) 97%);
+    width: 40%;
+    opacity: 0.8;
+    float: right;
+    border-radius: 5%;
+    color: #fff;
+    height: 400px;
+}
+#trama-secundaria h1 {
+    font-size: 30px;
+    margin: 20px;
+    text-align:center;
+}
+#trama-secundaria p {
+    margin: 20px;
+}
+/* Confirmação de Cadastro */
+#confirma h1 h2 p{
+    text-align: center; 
+    font-size: 40px;
+}
+#confirma{
+    text-align: center;
+    font-size: 60px;
+    margin:20px 0 10px 0;
+}
+.botao{
+    background-color:#4d9e50;
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+}
