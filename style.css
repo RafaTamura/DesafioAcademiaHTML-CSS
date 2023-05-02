@@ -191,7 +191,7 @@ footer p{
 }
 
 #produto img {
-    max-width: 100%;
+    max-width: 50%;
     max-height: 500px;
     width: 40%;
     
@@ -220,7 +220,7 @@ footer p{
     position: relative;
 }
 #caixa1{
-    background-image: url(img/fundo.jpg);
+    background-image: url(img/fundo2.jpg);
 
 }
 .tituloconteudo{
@@ -247,7 +247,7 @@ h3{
     font-size: 30px;
 }
 #caixa3{
-    background-image: url(img/fundo2.jpg)
+    background-image: url(img/fundo3.jpg)
 }
 p{
     text-align: center;
